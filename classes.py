@@ -137,6 +137,7 @@ class Directory():
         
         for i in self.index_inode.inodes:
             print(i.name, end = ' ')
+        print('\n')
 
     def __self_destruct(self):
         self.close()

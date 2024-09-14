@@ -19,7 +19,7 @@ file1.close()
 file1.open()
 file1.read(DISK)
 
-print('\n')
+
 
 #### DIRETORIO ####
 
@@ -35,10 +35,9 @@ dir.add_dir(dir2)
 dir.list()
 
 dir.move_file(file1, dir2)
-print('\n')
+
 dir2.list()
 
-print('\n')
 dir.list()
 
 dir.remove_dir(dir2, DISK)
